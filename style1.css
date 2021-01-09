@@ -1,0 +1,253 @@
+body {
+    background-color: seagreen;
+    margin: 5px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: lightgreen;
+}
+h1{
+    font-size: 100px;
+    font-weight: 100px;
+}
+section {
+    height: 390px;
+    margin-bottom: 100px;
+}
+.impress{
+    float:right;
+    padding-right: 10px;
+}
+.impress ul li {
+    text-decoration: none;
+    float: left;
+    list-style-type:georgian;
+    padding-left: 66px;
+    font-size: 30px;
+}
+.impress ul li:hover {
+    color: orange;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.impress ul a {
+    color: black;
+}
+
+.introduce {
+    padding-top: 100px;
+    padding: 100px 0px 30px 200px;
+}
+
+.introduceTalk {
+    width: 50%;
+    float: left;
+}
+
+.introduceTalk p {
+    font-size: 20px;
+}
+
+.introduceTalk h1 {
+    font-size: 40px;
+    margin: inherit;
+}
+
+.name-color{
+    color: orange;
+}
+
+.Hire {
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 12px 23px 12px 25px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Hire:hover {
+    background: rgb(124, 120, 120);
+    transition: .35s;
+    -webkit-transition: .35s;
+    -moz-transition: .35s;
+    -ms-transition: .35s;
+    -o-transition: .35s;
+}
+
+.introduceImg {
+    width: 40%;
+    float: left;
+}
+
+.About {
+    padding-top: 100px;
+    padding: 100px 0px 70px 200px;
+}
+
+.About h1 {
+    font-size: 40px;
+}
+
+.AboutTalk {
+    width: 40%;
+    float: left;
+}
+
+.AboutTalk p {
+    line-height: 1.5;
+    font-size: 20px;;
+}
+
+.AboutImg {
+    width: 40%;
+    float: left;
+}
+
+.cv {
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cv:hover {
+    background: rgb(124, 120, 120);
+    transition: .35s;
+    -webkit-transition: .35s;
+    -moz-transition: .35s;
+    -ms-transition: .35s;
+    -o-transition: .35s;
+}
+
+.Experiance {
+    margin: auto;
+    width: 90%;
+    display: block;
+    z-index: -5;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 285px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    background-color: rgba(212, 209, 209, 0.849);
+    z-index: -1;
+}
+
+.latestp {
+    padding-left: 200px;
+    padding-bottom: 50px;
+    word-spacing: 5px;
+    font-size: 40px;
+}
+
+.latestp span {
+    color: orange;
+}
+.ExperianceIn {
+    width: 20%;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px gray;
+    z-index: 5;
+    margin-right: 45px;
+    display:contents;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: justify;
+}
+
+.query {
+    background-image: url(Group_33094_1.png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.query .bb {
+    position: absolute;
+    left: 895px;
+    top: 180px;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 12px 20px 9px 20px;
+    border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -ms-border-radius: 6px 6px 6px 6px;
+    -o-border-radius: 6px 6px 6px 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.query .bb:hover {
+    background: rgb(124, 120, 120);
+    transition: .35s;
+    -webkit-transition: .35s;
+    -moz-transition: .35s;
+    -ms-transition: .35s;
+    -o-transition: .35s;
+}
+
+.query h1 {
+    position: relative;
+    left: 497px;
+    font-size: 30px;
+    top: 188px;
+    color: white;
+}
+
+footer {
+    position: relative;
+    left: 600px;
+    top: -165px;
+}
+.contact {
+    position: relative;
+    left: 550px;
+    width: 50%;
+    bottom: 360px;
+}
+.contact h2 {
+    position: relative;
+    left: 42px;
+    top: -10px;
+    font-size: 35px;
+}
+
+.contact a {
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer p{
+    color: rgb(85, 80, 80);
+}
+.footer h1{
+    color: black;
+    margin-bottom: 10px;
+}
+.footerimg img {
+    width: 50px;
+    float: left;
+    margin-left: 10px;
+}

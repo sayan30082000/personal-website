@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["OJGGa"]); }
+
+__d("CometPhotoAlbumCreateRootQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"4653571634717599",metadata:{},name:"CometPhotoAlbumCreateRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("CometPhotoAlbumCreateRoot.entrypoint",["JSResourceForInteraction","WebPixelRatio","CometPhotoAlbumCreateRootQuery$Parameters"],(function(a,b,c,d,e,f){"use strict";a={getPreloadProps:function(){return{queries:{CometPhotoAlbumCreateRootQueryReference:{parameters:b("CometPhotoAlbumCreateRootQuery$Parameters"),variables:{privacySelectorRenderLocation:"COMET_ALBUM",scale:b("WebPixelRatio").get()}}}}},root:b("JSResourceForInteraction")("CometPhotoAlbumCreateRoot.react").__setRef("CometPhotoAlbumCreateRoot.entrypoint")};c=a;e.exports=c}),null);
